@@ -1,0 +1,58 @@
+/* Write your CSS Here. */
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Orbitron&display=swap');
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 2em;
+    border: double 20px black;
+    margin: 3em;
+    background:
+      repeating-linear-gradient(175deg, rgba(255, 0, 0, 0.5) 40px,
+        rgba(255, 255, 0, 0.5) 120px,
+        rgba(0, 255, 0, 0.5) 160px, rgba(0, 0, 255, 0.5) 200px,
+        rgba(75, 0, 130, 0.5) 240px,
+        rgba(255, 0, 0, 0.5) 300px),
+      repeating-linear-gradient(-175deg, rgba(255, 0, 0, 0.5) 30px,
+        rgba(255, 255, 0, 0.5) 90px,
+        rgba(0, 255, 0, 0.5) 120px, rgba(0, 0, 255, 0.5) 150px,
+        rgba(75, 0, 130, 0.5) 180px,
+        rgba(255, 0, 0, 0.5) 230px),
+      repeating-linear-gradient(-50deg, red 50px,
+        yellow 150px, green 200px, blue 250px,
+        indigo 300px, red 370px);
+}
+
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 60px;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    font-family: 'Irish Grover', cursive;
+}
+
+h5 {
+    font-size: 25px;
+    color: black
+}
+
+h4 {
+  font-size: 17px;
+}
