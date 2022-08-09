@@ -32,14 +32,14 @@
     -have a display counter increased by 1 for every correct answer and reset in the case the answer is incorrect
     */
 
-    let userInput = document.querySelector('input')
-    let scoreBox = document.querySelector('#score')
+    const userInput = document.querySelector('input')
+    const scoreBox = document.querySelector('#score')
+    const form = document.getElementById('trivia-guess-form')
+    const answer = document.getElementById('answer')
     let score = 0
     let clueList = []
     let currentClue
     let index
-    let form = document.getElementById('trivia-guess-form')
-    let answer = document.getElementById('answer')
     
     function fetchAPI(){
         fetch('https://jservice.kenzie.academy/api/random-clue?valid=true')

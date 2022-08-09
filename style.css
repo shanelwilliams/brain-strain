@@ -1,56 +1,71 @@
 /* Write your CSS Here. */
-@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Orbitron&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Irish+Grover&family=Orbitron&display=swap");
 
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 2em;
-    border: double 20px black;
-    margin: 6rem;
-    background:
-      repeating-linear-gradient(175deg, rgba(255, 0, 0, 0.5) 40px,
-        rgba(255, 255, 0, 0.5) 120px,
-        rgba(0, 255, 0, 0.5) 160px, rgba(84, 84, 246, 0.5) 200px,
-        rgba(75, 0, 130, 0.5) 240px,
-        rgba(255, 0, 0, 0.5) 300px),
-      repeating-linear-gradient(-175deg, rgba(255, 0, 0, 0.5) 30px,
-        rgba(255, 255, 0, 0.5) 90px,
-        rgba(0, 255, 0, 0.5) 120px, rgba(74, 74, 245, 0.5) 150px,
-        rgba(75, 0, 130, 0.5) 180px,
-        rgba(255, 0, 0, 0.5) 230px),
-      repeating-linear-gradient(-50deg, red 50px,
-        yellow 150px, green 200px, rgb(65, 65, 246) 250px,
-        indigo 300px, red 370px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 2em;
+  border: double 20px black;
+  margin: 6rem;
+  background: repeating-linear-gradient(
+      175deg,
+      rgba(255, 0, 0, 0.5) 40px,
+      rgba(255, 255, 0, 0.5) 120px,
+      rgba(0, 255, 0, 0.5) 160px,
+      rgba(84, 84, 246, 0.5) 200px,
+      rgba(75, 0, 130, 0.5) 240px,
+      rgba(255, 0, 0, 0.5) 300px
+    ),
+    repeating-linear-gradient(
+      -175deg,
+      rgba(255, 0, 0, 0.5) 30px,
+      rgba(255, 255, 0, 0.5) 90px,
+      rgba(0, 255, 0, 0.5) 120px,
+      rgba(74, 74, 245, 0.5) 150px,
+      rgba(75, 0, 130, 0.5) 180px,
+      rgba(255, 0, 0, 0.5) 230px
+    ),
+    repeating-linear-gradient(
+      -50deg,
+      red 50px,
+      yellow 150px,
+      green 200px,
+      rgb(65, 65, 246) 250px,
+      indigo 300px,
+      red 370px
+    );
+    overflow: hidden;
 }
 
 h1 {
-    font-family: 'Orbitron', sans-serif;
-    font-size: 60px;
-    color: black;
-    margin-bottom: 1rem;
+  font-family: "Orbitron", sans-serif;
+  font-size: 60px;
+  color: black;
+  margin-bottom: 1rem;
 }
 
 h2 {
-    font-family: 'Orbitron', sans-serif;
-    color: black;
-    font-size: 2rem;
-    margin-top: 2rem;
+  font-family: "Orbitron", sans-serif;
+  color: black;
+  font-size: 2rem;
+  margin-top: 2rem;
 }
 
 main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: white;
-    font-family: 'Irish Grover', cursive;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-family: "Irish Grover", cursive;
 }
 
 h5 {
-    font-size: 25px;
-    color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  color: white;
 }
 
 h4 {
