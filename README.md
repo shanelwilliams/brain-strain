@@ -15,3 +15,34 @@ I wanted to add the category, questions, title, and the placeholder to HTML. I f
 I added the 'Mind Blown' emoji to the title for an added effect and was similar to how I had felt after completing this project.
 
 I really enjoyed having to use my brain and thinking outside the box.
+
+Psuedo Code:
+
+ 1. Use fetch to pull questions from the API.
+    -fetch API
+    -either use GET /api/random-clue?valid=true or Math.random()*/
+    
+    /* 2. Present a single question to the user.
+    -render fuction to show a new question for the user
+    -maybe have it as a list for 1 question at a time
+    -have a button that starts the trivia questions*/
+
+    /*3. Allow the user to respond to the question.
+    -have a box to put answer and a box to submit answer
+    -set it so answers with Capital letters or lowercase letters*/
+   
+    /* 4. Determine if the user's answer was correct.
+    -need if and else statement
+
+        1. A correct answer awards 1 point and contiues the game.
+    -increase the count by 1 for every correct answer
+    -messagestating correct that appears for a few seconds
+    -display new question after answer disapears
+
+        2. An incorrect answer resets the game and resets the score back to 0.
+    -figure out how to reset the game for a wrong answer
+    -message for answer incorrect that appears for a few seconds*/
+   
+    /*5. Keep track of and display a user's score.
+    -have a display counter increased by 1 for every correct answer and reset in the case the answer is incorrect
+    */
